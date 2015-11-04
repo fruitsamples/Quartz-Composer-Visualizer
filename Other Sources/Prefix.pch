@@ -1,0 +1,16 @@
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+	#import <Quartz/Quartz.h>
+#endif
+
+#define kClientPort								20000
+#define kClientServiceType						@"qcVisualizer"
+
+#define kServerPort								25000
+#define kServerServiceType						@"qcVisualizer"
+
+#define kClientNotification						@"qcVisualizerClientNotification"
+
+#define kUserDefaultsKey_DisableFullScreen		@"disableFullScreen"
+#define kUserDefaultsKey_DisableDisplayLink		@"disableDisplayLink"
+#define kUserDefaultsKey_AutoStart				@"autoStart"
